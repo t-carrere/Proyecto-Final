@@ -50,7 +50,7 @@ body
 } */
 header
 {
-    background-image: linear-gradient(rgba(16,16,16,0.6), rgba(16,16,16, 0.6)), url(../Imagenes/fondo__header.jpg);
+    background-image: linear-gradient(rgba(16,16,16,0.6), rgba(16,16,16, 0.6)), url(../imagenes/fondo__header.jpg);
     background-repeat:space;
     background-size:cover;
     
@@ -236,7 +236,7 @@ footer{
     align-items: center;
     box-shadow: 0 2px 4px black;
     padding: 10px;
-    background-image: linear-gradient(rgba(16,16,16,0.6), rgba(16,16,16, 0.6)), url(../Imagenes/fondo__header.jpg);
+    background-image: linear-gradient(rgba(16,16,16,0.6), rgba(16,16,16, 0.6)), url(../imagenes/fondo__header.jpg);
     background-repeat:space;
     background-size:cover;
 }
