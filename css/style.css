@@ -164,6 +164,7 @@ input , textarea , select
     border-radius:10px;
     -webkit-border-radius:10px;
     box-shadow: 0px 0px 3px 3px #0e0e0e;
+    transition: all 0.7s;
   }
 .enviar_p
 {
@@ -313,7 +314,20 @@ h2
     padding: 10px;
     margin: 15px;
 }
+.img_alim2
+{
+    float: left;;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px black;
+    padding: 15px;
+    margin: 20px;
+}
 .img_alim:hover
+{
+    transform:scale(1.1);
+    transition: all 0.5s;
+}
+.img_alim2:hover
 {
     transform:scale(1.1);
     transition: all 0.5s;
@@ -335,7 +349,7 @@ h2
 {
     display: flex;
     padding: 100px;
-    margin: 150px;
+    margin: 0px 150px 150px 150px;
     background-color: #27ae60;
     border-radius: 4px;
     box-shadow: 3px 3px 5px black;
@@ -345,10 +359,11 @@ h2
 {
     padding: 20px;
     margin: 20px;
-    background-color: #e0e0e0;
+    background-color: #d6d2d2;
     color: #27ae60;
     box-shadow: 3px 3px 5px black;
     border-radius: 6px;
+    font-weight: bolder;
 }
 p
 {
@@ -356,9 +371,56 @@ p
 }
 .nosotros
 {
-
 padding: 20px;
 border-radius: 50%;
 box-shadow: 0px 0px 5px black;
 margin: 20px;
+}
+.tit_nos
+{
+    margin: 50px;
+    color:#e0e0e0;
+    background-color: #27ae60;
+}
+.cards-container
+{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+.card
+{
+    margin: 1rem;
+    background-color: #27ae60;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 3px 3px 5px black;
+}
+.card-img
+{
+    padding: 0.6rem;
+    border-radius: 20px;
+    width: 270px;
+    height: 170px;
+}
+.card h5 
+{
+    color: #e0e0e0;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 10px;
+}
+.card a
+{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.card:hover
+{
+    transform:scale(1.1);
+    transition: all 0.6s;
 }
