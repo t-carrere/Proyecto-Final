@@ -145,10 +145,11 @@ input , textarea , select
         box-shadow: 0 2px 4px #0e0e0e;
         color: #27ae60;
         font-size: 1.1em;
-        font: bolder;
+        font-weight: bolder;
         padding: 0.625rem 1.5625rem;
         cursor: pointer;
         border-radius: 6px;
+
 }
 .enviar:hover{
     border-radius:10px;
