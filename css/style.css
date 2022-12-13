@@ -408,8 +408,30 @@ margin: 1.25em;
     width: 16.875em;
     height: 10.625em;
 }
-.card h5 
+.card  
 {
+    color: #e0e0e0;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 10px;
+}
+h5 a{
+    text-align: center;
+    padding: 0.3125em;
+    margin: 0.625em;
+    font-size: 1.56rem;
+    color: #e0e0e0;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 10px;
+}
+h5 a:hover{
+    background-color: #e0e0e0;
+    color: #27ae60;
+}
+h4{
+    text-align: center;
+    padding: 0.3125em;
+    margin: 0.625em;
+    font-size: 1.56rem;
     color: #e0e0e0;
     box-shadow: 1px 1px 3px black;
     border-radius: 10px;
